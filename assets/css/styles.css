@@ -6,7 +6,7 @@ h1{
 }
 h2{
     color:rgb(22, 191, 221);
-    font-size: 50px;
+    font-size: 45px;
     text-align: left;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ body{
 p{
     color:black;
     font-size: medium;
-    position: relative;
+    position:relative;
     float:right;
 }
 .container{
@@ -27,7 +27,9 @@ p{
     margin:0;
     padding:0;
 }
-.row #logo{
+.image-photo{}
+
+#logo{
     color: white;
     background-color: rgb(22, 191, 221);
     font-size: 30px;
