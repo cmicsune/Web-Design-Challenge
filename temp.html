@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang='en-us'>
 
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-UA-Compatible", content="ie=edge">
     <title>Temperature Visualization</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+</head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <a id="logo">Latitude</a>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="col-xs-9 phone-nav">
+                <a class="navbar-brand" href="landing.html" id="logo">Latitude</a>
+              </div>
             </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                    <li><a href="wind.html">Wind Speed</a></li>
+                  </ul>
+                </li>
+                <li><a href="comparisons.html">Comparisons</a></li>
+                <li><a href="data.html">Data</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
+      </nav>
     <div class="container">
         <div class= "row">
             <div class="col-md-12">
