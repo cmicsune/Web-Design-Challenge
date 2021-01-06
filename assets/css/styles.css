@@ -12,13 +12,6 @@ html {
       background-color: #fff;
     }
   }
-  h1{
-    margin-bottom: 33px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: #4AAAA5;
-  }
   .navbar-custom {
     background-color: #fff;
   }
@@ -87,7 +80,7 @@ html {
     float: left;
     width: 200px;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 20px;
   }
   @media only screen and (max-width: 767px) {
